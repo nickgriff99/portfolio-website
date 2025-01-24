@@ -1,0 +1,543 @@
+@media (min-width: 1024px) {
+  .nav-items a:hover {
+    color: #2476ff;
+  }
+
+  .buyNow a:hover {
+    color: #0052cc;
+    background-color: #ffffff;
+  }
+
+  .playVideo:hover {
+    color: #0052cc;
+    background-color: #ffffff;
+  }
+
+  .playVideo:hover img {
+    background-color: #0052cc;
+    border: 1px solid #0052cc;
+    border-radius: 50%;
+  }
+
+  .logos {
+    transition: all 0.75s ease-in-out;
+  }
+
+  .logos:hover {
+    transform: scale(1.1);
+    transform: skew(8deg);
+  }
+
+  .pricingBox {
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pricingBox:hover {
+    box-shadow: 0px 10px 20px 0px #00000026;
+  }
+
+  .privacy a:visited {
+    color: #2476ff;
+  }
+
+  .submitForm:hover {
+    color: #0052cc;
+    background-color: #ffffff;
+  }
+
+  .footer3 a:hover {
+    color: #2476ff;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  section {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    margin-right: 30px;
+    width: 40px;
+    height: 25px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .topSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 30px 0 30px;
+    height: 550px;
+  }
+
+  .leftContainer {
+    width: 100%;
+    height: 100%;
+    max-width: 768px;
+    max-height: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .rightContainer {
+    position: relative;
+    width: 100%;
+    min-width: 712px;
+    max-width: 712px;
+  }
+
+  .topHeader {
+    max-width: 768px;
+    min-height: 48px;
+    max-height: 48px;
+  }
+
+  .headerContainer {
+    max-height: 76px;
+  }
+
+  .logos:nth-child(3) {
+    top: 5%;
+    left: 60%;
+  }
+  .logos:nth-child(4) {
+    top: 45%;
+    right: 20%;
+  }
+  .logos:nth-child(5) {
+    top: 45%;
+    left: 10%;
+  }
+  .logos:nth-child(6) {
+    top: 70%;
+    left: -30%;
+  }
+  .logos:nth-child(7) {
+    top: 70%;
+    left: 10%;
+  }
+
+  .pricing {
+    min-height: 1013px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .pricingRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .pricingBox {
+    width: 90%;
+    height: 100%;
+    max-width: 680px;
+    max-height: 305px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .pricePerMonth {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .playAndNo {
+    align-items: center;
+  }
+
+  .componentsGrid {
+    width: 100%;
+    margin: 0;
+  }
+
+  .row1,
+  .row2 {
+    max-width: 680px;
+    min-width: 680px;
+  }
+
+  .hireUsContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .hireLeft {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    gap: 60px;
+    flex: 1;
+    max-width: 100%;
+  }
+
+  .hireTop {
+    flex: 1;
+  }
+
+  .hireLeft .hireTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .hireUsHead {
+    width: 100%;
+  }
+
+  .profileContainer {
+    margin: 0;
+  }
+
+  .hireRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    max-width: 638px;
+    min-width: 638px;
+    margin: 30px 60px 60px 60px;
+  }
+
+  .hireUsForm {
+    max-width: 728px;
+  }
+
+  .privacy a:visited {
+    color: #2476ff;
+  }
+
+  .formRow1,
+  .formRow3 {
+    display: flex;
+    width: 100%;
+  }
+
+  .privacy {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 90px;
+    flex: 1;
+  }
+
+  footer {
+    padding: 80px 30px 40px;
+    width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+  }
+
+  .footer2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .firstBox,
+  .secondBox {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+
+  .navContainer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    width: 40px;
+    height: 25px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .topSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 30px 0 30px;
+    height: 550px;
+  }
+
+  .leftContainer {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .leftContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .topHeader {
+    max-width: 100%;
+    min-height: auto;
+    max-height: none;
+  }
+
+  .headerContainer {
+    max-height: none;
+  }
+
+  .rightContainer {
+    min-width: 100%;
+    max-width: 100%;
+    position: relative;
+    gap: 10px;
+  }
+
+  .logos:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .logos:nth-child(2) {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+  }
+  .logos:nth-child(3) {
+    position: absolute;
+    top: 5%;
+    left: 70%;
+  }
+  .logos:nth-child(4) {
+    position: absolute;
+    top: 35%;
+    right: 70%;
+  }
+  .logos:nth-child(5) {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+  }
+  .logos:nth-child(6) {
+    position: absolute;
+    top: 65%;
+    left: 25%;
+  }
+  .logos:nth-child(7) {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+  }
+
+  .basicsOfFront::before,
+  .basicsOfFront::after {
+    display: none;
+  }
+
+  section .theWhy .componentsList {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .basicsOfFront {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    gap: 30px;
+  }
+
+  .basicsOfFront p {
+    margin: 0;
+  }
+
+  .pricing {
+    height: auto;
+  }
+
+  .pricingRow {
+    flex-direction: column;
+    max-height: none;
+    height: 100%;
+  }
+
+  .row1,
+  .row2 {
+    flex-direction: column;
+    max-width: 100%;
+    min-width: 100%;
+    flex: 1;
+    align-items: flex-start;
+  }
+
+  .componentsGrid {
+    width: 100%;
+    max-height: 100%;
+  }
+
+  .hireUsContainer {
+    flex-direction: column;
+  }
+
+  .hireLeft {
+    margin: 0;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hireTop {
+    width: auto;
+  }
+
+  .profileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: none;
+  }
+
+  .hireRight {
+    justify-content: center;
+    width: auto;
+    margin: 30px 20px;
+    padding: 20px 0;
+  }
+
+  .hireUsHeader {
+    max-width: fit-content;
+    width: 270px;
+  }
+
+  .hireUsForm {
+    max-width: 270px;
+  }
+
+  .formRow1,
+  .formRow3 {
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+  }
+
+  select {
+    min-width: 270px;
+  }
+
+  .firstName,
+  .lastName,
+  .email {
+    width: 248px;
+  }
+
+  .privacy a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .privacy a:visited {
+    color: #2476ff;
+  }
+
+  .privacy a:nth-child(2) {
+    display: none;
+  }
+
+  .checkbox {
+    margin: 0;
+  }
+
+  footer {
+    height: auto;
+    max-height: none;
+  }
+
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    height: 100%;
+  }
+
+  .footer1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerFrontLogo {
+    margin: 0;
+    min-height: 20px;
+    min-width: 100px;
+  }
+
+  .footer2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
+
+  .firstBox,
+  .secondBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
+
+  .footer3,
+  .footer3 a {
+    text-align: center;
+    justify-content: center;
+  }
+}
